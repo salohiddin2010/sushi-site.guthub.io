@@ -1,0 +1,14 @@
+@import '../../index.scss';
+
+header{
+	margin-bottom: 50px;
+
+	.nav{
+		padding: 20px 0;
+	}
+
+	.navbar{
+		@include flexBetween;
+	}
+}
+
